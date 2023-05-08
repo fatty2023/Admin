@@ -23,3 +23,9 @@ function closeTab(){
   let forms = document.getElementById("forms")
   forms.classList.toggle("hidden")
 }
+
+function handleLogOut(){
+  let logout = document.getElementById("logout")
+  console.log("logout")
+  logout.classList.toggle("hidden")
+}
